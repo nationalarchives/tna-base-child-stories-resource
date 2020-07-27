@@ -43,7 +43,7 @@ get_header(); ?>
                                 <div class="entry-content">
                                     <h2>Introduction</h2>
                                     <?php the_content(); ?>
-                                    <a class="button">Guidance</a>
+                                    <a id="guidance-btn" class="button">Guidance</a>
                                     <div id="guidance">
                                         <?php echo get_post_meta( get_the_ID(), 'stories_home_guidance', true ) ?>
                                     </div>

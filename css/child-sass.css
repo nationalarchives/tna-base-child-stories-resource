@@ -13,4 +13,12 @@
   width: auto;
 }
 
+#guidance {
+  display: none;
+}
+
+#guidance-btn:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=child-sass.css.map */

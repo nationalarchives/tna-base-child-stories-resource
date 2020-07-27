@@ -88,7 +88,7 @@ function stories_home_metaboxes() {
     $stories_home_metabox_array = array(
         array(
             'id'       => 'page_options',
-            'title'    => 'Stories resource options',
+            'title'    => 'Stories home options',
             'pages'    => 'page',
             'context'  => 'normal',
             'priority' => 'low',
