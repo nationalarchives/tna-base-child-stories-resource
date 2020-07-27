@@ -44,7 +44,7 @@ get_header(); ?>
                                     <h2>Introduction</h2>
                                     <?php the_content(); ?>
                                     <a id="guidance-btn" class="button">Guidance</a>
-                                    <div id="guidance">
+                                    <div id="guidance" class="hidden">
                                         <?php echo get_post_meta( get_the_ID(), 'stories_home_guidance', true ) ?>
                                     </div>
                                 </div>
