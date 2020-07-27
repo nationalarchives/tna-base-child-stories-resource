@@ -41,6 +41,7 @@ get_header(); ?>
                         <div class="col-xs-12 col-sm-6 col-md-8">
                             <div class="intro-entry">
                                 <div class="entry-content">
+                                    <h2>Introduction</h2>
                                     <?php the_content(); ?>
                                 </div>
                             </div>
