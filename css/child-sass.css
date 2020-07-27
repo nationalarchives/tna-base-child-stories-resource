@@ -1,2 +1,8 @@
 /*! TNA Child styles */
 /* Add global CSS here */
+.stories-resource-image {
+  width: auto;
+  height: auto;
+}
+
+/*# sourceMappingURL=child-sass.css.map */
