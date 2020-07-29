@@ -47,7 +47,7 @@ get_header(); ?>
                                     <div class="row entry-content">
                                         <div class="col-md-12">
                                             <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_3', true ) ?></h2>
-                                            <?php echo get_post_meta( get_the_ID(), 'stories_resource_do_you_know', true ) ?>
+                                            <p><?php echo get_post_meta( get_the_ID(), 'stories_resource_do_you_know', true ) ?></p>
                                         </div>
                                     </div>
                                 </article>
