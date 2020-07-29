@@ -17,6 +17,10 @@
   display: none;
 }
 
+.question-list {
+  margin-bottom: 0;
+}
+
 #guidance-btn:hover {
   cursor: pointer;
 }

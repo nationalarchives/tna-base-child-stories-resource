@@ -37,7 +37,7 @@ get_header(); ?>
                                         <div class="col-md-12">
                                             <h2><?php echo get_post_meta( get_the_ID(), 'stories_resource_h2_2', true ) ?></h2>
                                             <div class="activity-container">
-                                                <ul>
+                                                <ul class="question-list">
                                                     <?php echo get_post_meta( get_the_ID(), 'stories_resource_questions', true ) ?>
                                                 </ul>
                                             </div>
