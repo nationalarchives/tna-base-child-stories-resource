@@ -16,3 +16,11 @@ function tna_child_styles()
 	wp_enqueue_style('tna-parent-styles');
 	wp_enqueue_style('tna-child-styles');
 }
+
+function tna_child_scripts()
+{
+    if (is_page_template('page-portal-landing.php')) {
+        wp_register_script('stories-resource-script', get_stylesheet_directory_uri() . '/js/stories-resource-script.js', array(), '1.0');
+        wp_enqueue_script( 'stories-resource-script' );
+    }
+}

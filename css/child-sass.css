@@ -1,2 +1,28 @@
 /*! TNA Child styles */
 /* Add global CSS here */
+.stories-resource-image {
+  width: auto;
+  height: auto;
+}
+
+.activity-container {
+  background-color: #f3f3f3;
+  padding: 20px;
+  margin: 0;
+  line-height: 1.6;
+  width: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.question-list {
+  margin-bottom: 0;
+}
+
+#guidance-btn:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=child-sass.css.map */
